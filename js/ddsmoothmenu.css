@@ -1,0 +1,181 @@
+
+@import url("../css/fonts.css");
+.ddsmoothmenu {
+	float:left;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: 10;
+}
+.ddsmoothmenu ul {
+	width: 100%;
+	float: left;
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: visible !important; 
+}
+/*Top level list items*/
+
+.ddsmoothmenu > ul
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	width: 100%;
+}
+
+.ddsmoothmenu > ul > li  {
+	float: left;
+	position: relative;
+	z-index: 10 !important;
+	background: url('../images/line_menu.png') no-repeat center right;
+	width: 100%;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu > ul > li > a {
+	text-align: center;
+	display: block;
+	font-family: 'VCOOPERB';
+	color: #fff;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition:all 0.5s;
+	position: relative;
+	white-space: nowrap;
+	padding: 0 15px;
+}
+.ddsmoothmenu > ul > li:first-child
+{
+	width: 60px;
+}
+
+.ddsmoothmenu > ul > li.active > a
+{
+	color: #fff200;
+}
+
+.ddsmoothmenu > ul > li:hover > a {
+	color: #fff200;
+}
+#main_menu .ddsmoothmenu > ul > li.active > a i
+{
+	color: #fff200;
+}
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul {
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+	background:#860710;
+	width: 220px;
+	position: absolute;
+	top: calc(100%) !important;
+	z-index: 10 !important;
+}
+.ddsmoothmenu > ul > li > ul
+{
+	left: -5px !important;
+}
+.ddsmoothmenu ul li ul li {
+	display: list-item;
+	float: left;
+	width: 100%;
+	margin-right:0px;
+	padding-right:0px;
+	padding:10px 10px 10px 10px !important;
+	height: auto !important;
+	line-height: normal !important;
+	border-bottom: 1px solid #fff !important;
+	background:#860710;
+	position: relative !important;
+}
+
+.ddsmoothmenu ul li ul li:last-child
+{
+	border: 0px !important;
+}
+
+.ddsmoothmenu ul li ul li:hover
+{
+	background:none !important;
+	margin-top: 0px !important;
+}
+
+.ddsmoothmenu ul > li > ul > li:hover > a
+{
+	color: #fff200 !important;
+}
+
+.ddsmoothmenu ul li ul li a {
+	padding:0px 0px 0px 0px;
+	width: 100%;
+	float: left;
+	
+	font-size: 15px;
+	border: 0px !important;
+	box-shadow: none !important;
+	text-transform: capitalize;
+	margin:0px !important;
+	
+	background: rgba(255,255,255,0) !important;
+	color: #fff !important;
+	text-align: left;	 
+}
+.ddsmoothmenu ul li ul li:last-child a
+{
+	border: 0px !important;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul {
+	margin-left:2px;
+	top: 0px !important;
+}
+/* Sub level menu links style */
+
+.ddsmoothmenu ul li ul li ul{
+	margin:0px;
+}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu {
+	height: 1%;
+	} /*Holly Hack for IE7 and below*/
+	/* ######### CSS classes applied to down and right arrow images  ######### */
+
+	.downarrowclass {
+		position: absolute;
+		top: 12px;
+		right: 7px;
+		display: none;
+	}
+	.rightarrowclass {
+		position: absolute;
+		top: 6px;
+		right: 5px;
+		display: none;
+	}
+	/* ######### CSS for shadow added to sub menus  ######### */
+
+	.ddshadow { /*shadow for NON CSS3 capable browsers*/
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 0;
+		height: 0;
+		background: silver;
+	}
+	.toplevelshadow { /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+	opacity: 0.8;
+}

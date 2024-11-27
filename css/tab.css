@@ -1,0 +1,128 @@
+/* 
+    Document   : style
+    Created on : Mar 30, 2014, 8:21:25 PM
+    Author     : Phan Văn Cương
+    Website    : http://web360plus.com
+        Trang chia sẻ và đào tạo lập trình thiết kế website
+*/
+*{ margin: 0px; padding: 0px;}
+.clear { clear: both;}
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+li
+
+{ 
+  list-style: none;
+}
+
+ul.tab_nav li a
+{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.wrapper{ 
+  width: 100%;
+   margin: 20px auto;
+    background: #ddd; 
+    height: auto;}
+.tab_wrapper 
+{ 
+  float: left;
+  margin-top:10px;
+  width: 100%;
+}
+
+ul.tab_nav
+{
+ width: 100%;
+ }
+ .bao_tab
+{ 
+  width: 100%;
+  float: left;
+  
+}
+
+
+ul.tab_nav li
+{
+   
+   display: inline-block;
+    transition: all 0.5s;
+}
+
+
+
+ul.tab_nav li a
+{
+  padding: 8px 25px; 
+  display: block;
+  color: black;
+  transition: all .2s;
+  text-transform: uppercase;
+  font-family: 'RobotoCondensed';
+  font-size: 15px;
+  font-weight: normal;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+ul.tab_nav li a.active:before
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #ff0006;
+    transition: all 0.3s;
+    height: 3px;
+    z-index: 99;
+}
+
+ul.tab_nav li:hover a:before
+{
+ content: " ";
+ position: absolute;
+ top: 0;
+ left: 50%;
+ -webkit-transform: translateX(-50%);
+ -ms-transform: translateX(-50%);
+ transform: translateX(-50%);
+ width: 100%;
+ background-color: #ff0006;
+ transition: all 0.3s;
+ height: 3px;
+ z-index: 99;
+}
+
+.tab_content
+{
+  width:100%; 
+  height: auto; 
+  text-align: left;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 10px;
+  border:1px solid #ccc;
+}
+ .chitiet .clearfix
+{
+  padding-left: 20px;
+  
+}

@@ -1,0 +1,238 @@
+@media (max-width: 1349px) {} @media (min-width: 1200px) {
+}
+
+@media (max-width: 1200px) {
+    .container_main {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #slidershow .container_main {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container2 {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   
+    .owl-theme3 .owl-prev
+    {
+        left: 10px !important;
+    }
+    .owl-theme3 .owl-next
+    {
+        right: 10px !important;
+    }
+    .slick-dots
+    {
+        bottom: -60px !important;
+    }
+}
+@media (max-width: 1140px) {
+   .ddsmoothmenu > ul > li > a
+   {
+    white-space:normal !important; 
+   }
+}
+@media (max-width: 1084px) {
+     #left
+    {
+        width: 25%;
+    }
+    .content_right
+    {
+        width: 75%;
+    }
+}
+@media (max-width: 1024px) {
+  #slidershow .slider_right p
+  {
+    display: none;
+  }
+ 
+}
+@media (max-width: 992px) {
+    .footer6 .container_main
+    {
+        display: block;
+        text-align: center;
+    }
+   
+    .items_tintuc4:nth-child(3n+1)
+    {
+        clear: both;
+    }
+    .items_tintuc4:nth-child(4n+1)
+    {
+        clear: none;
+    }
+   
+     #left
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .content_right
+    {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .ddsmoothmenu {
+        display: none !important;
+    }
+    .menu_mobile,.hotline_mobile {
+        display: block;
+    }
+    #main_menu .menu
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100%;
+    }
+    #main_menu .menu a
+    {
+        display: flex;
+        align-items: center;
+    }
+    .video_home iframe
+    {
+        height: 250px;
+    }
+    .footer7,.footer8
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .banner
+    {
+        width: 50%;
+    }
+    .right_top
+    {
+        width: 30%;
+    }
+    #header .header
+    {
+        padding: 10px 0;
+    }
+    .items_index .images_index
+    {
+        width: 40%;
+    }
+}
+@media (max-width: 767px) {
+    #slidershow .slider_left
+    {
+        width: 100%;
+    }
+    #slidershow .slider_right
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    #slidershow .slider_right h2
+    {
+        margin-bottom: 10px;
+    }
+    #slidershow .slider_right a
+    {
+        margin-top: 10px;
+    }
+    #slidershow .slider_right .items_slider 
+    {
+        height: auto !important;
+    }
+    #footer1
+    {
+        display: block;
+    }
+    .header .box_header
+    {
+        justify-content: space-between;
+    }
+    .banner
+    {
+        width: 80%;
+        padding-right: 0;
+    }
+    .right_top
+    {
+        display: none;
+    }
+    .index_home .index_left
+    {
+        padding-right: 0;
+    }
+    .index_home .index_right
+    {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .box_thongtin .container_main .items_footer
+    {
+        text-align: center;
+    }
+    .footer6
+    {
+        margin-bottom: 50px;
+    }
+	.content-box-miss label, .content-box-miss .td, .input-25 { width: 100%;}
+	  .content-box-miss .td {}
+	  .input-25 { margin-right: 0px;}
+	  .input-25:not(:last-child) { margin-bottom: 10px;}
+	  .content-box-miss .td1 { padding-left: 10px;}
+}
+@media (max-width: 675px) 
+{   
+   .items_index .des_index p
+   {
+     -webkit-line-clamp: 2;
+   }
+   .contact-l
+   {
+    width: 100%;
+   }
+   .contact-r
+   {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 20px;
+   }
+} 
+@media (max-width: 575px) {
+}
+@media (max-width: 500px) {
+    .items_tintuc4
+    {
+        width: 100% !important;
+    }
+    .items_dichvu {
+        width: 100% !important;
+    }
+  
+}
+@media screen and (max-width: 475px) {
+    ul.tab_nav li a {
+        padding: 5px 25px !important;
+    }
+    .items_baiviet_olw
+    {
+        width: 100% !important
+    }
+    
+}
+@media screen and (max-width: 400px) {
+   
+    
+} 
+@media screen and (max-width: 375px) {
+
+
+}
+@media screen and (max-width: 325px) {
+    
+}
